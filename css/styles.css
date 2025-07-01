@@ -9,9 +9,8 @@
 body {
 
     width: 100vw;
-    height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
 
 }
 
@@ -61,7 +60,7 @@ main {
 .description button {
 
     width: 24%;
-    height: 60px;
+    min-height: 60px;
     border-radius: 12px;
     border: none;
     background-color: #252525;
@@ -80,5 +79,48 @@ main {
     transition: .3s ease;
     text-shadow: white 0px 0px 8px;
 
+
+}
+
+.gallery {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4%;
+    
+}
+
+.gallery div {
+
+    background-color: transparent;
+    margin: 1%;
+    max-width: 20%;
+    max-height: 16%;
+
+}
+
+.gallery div img {
+
+    border-radius: 16px;
+    max-width: 99%;
+    max-height: 95%;
+    object-fit: contain;
+    box-shadow: 0px 0px 12px 0px rgb(167, 167, 167);
+    transition: .3s ease;
+    opacity: .85;
+
+}
+
+.gallery div img:hover {
+
+    box-shadow: 0px 0px 16px 0px rgb(0, 0, 0);
+    transition: .3s ease;
+    max-width: 100%;
+    border: none;
+    opacity: 1;
 
 }
