@@ -126,7 +126,7 @@ main {
 }
 
 
-@media (max-width: 500px) {
+@media (min-width: 200px) {
 
     .description {
 
@@ -136,7 +136,7 @@ main {
 
     .description h1 {
 
-        font-size: 2.8em;
+        font-size: 2.6em;
         text-align: center;
 
     }
@@ -149,7 +149,7 @@ main {
 
     .description button {
 
-        width: 30%;
+        width: 40%;
 
     }
 
@@ -163,7 +163,7 @@ main {
 
         background-color: transparent;
         margin: 1%;
-        max-width: 30%;
+        max-width: 80%;
         max-height: 16%;
 
     }
@@ -182,7 +182,7 @@ main {
     
 }
 
-@media (max-width: 700px) {
+@media (min-width: 500px) {
 
     .description {
 
@@ -205,7 +205,7 @@ main {
 
     .description button {
 
-        width: 30%;
+        width: 35%;
 
     }
 
@@ -219,7 +219,7 @@ main {
 
         background-color: transparent;
         margin: 1%;
-        max-width: 30%;
+        max-width: 80%;
         max-height: 16%;
 
     }
@@ -238,7 +238,7 @@ main {
     
 }
 
-@media (max-width: 1025px) {
+@media (min-width: 700px) {
 
     .description {
 
@@ -275,7 +275,7 @@ main {
 
         background-color: transparent;
         margin: 1%;
-        max-width: 30%;
+        max-width: 40%;
         max-height: 16%;
 
     }
@@ -297,7 +297,7 @@ main {
 
 
 
-@media (max-width: 1600px) {
+@media (min-width: 1024px) {
 
     .description {
 
@@ -320,7 +320,7 @@ main {
 
     .description button {
 
-        width: 30%;
+        width: 20%;
 
     }
 
@@ -351,4 +351,53 @@ main {
 
     }
     
+}
+
+@media (min-width: 1600px) {
+
+    .description {
+
+        padding-inline: 32%;
+
+    }
+
+    .description h1 {
+
+        font-size: 3.6em;
+        text-align: center;
+
+    }
+
+    .description p {
+
+        font-size: 1.4em;
+
+    }
+
+    .description button {
+
+        width: 30%;
+
+    }
+
+    .gallery div {
+
+        background-color: transparent;
+        margin: 1%;
+        max-width: 20%;
+        max-height: 16%;
+
+    }
+
+    .gallery div img {
+
+        border-radius: 16px;
+        max-width: 99%;
+        max-height: 95%;
+        object-fit: contain;
+        box-shadow: 0px 0px 12px 0px rgb(167, 167, 167);
+        transition: .3s ease;
+        opacity: .85;
+
+    }
 }
