@@ -124,3 +124,231 @@ main {
     opacity: 1;
 
 }
+
+
+@media (max-width: 500px) {
+
+    .description {
+
+        padding-inline: 12%;
+
+    }
+
+    .description h1 {
+
+        font-size: 2.8em;
+        text-align: center;
+
+    }
+
+    .description p {
+
+        font-size: 1.2em;
+
+    }
+
+    .description button {
+
+        width: 30%;
+
+    }
+
+    .gallery {
+
+        padding-top: 16%;
+
+    }
+
+    .gallery div {
+
+        background-color: transparent;
+        margin: 1%;
+        max-width: 30%;
+        max-height: 16%;
+
+    }
+
+    .gallery div img {
+
+        border-radius: 16px;
+        max-width: 99%;
+        max-height: 95%;
+        object-fit: contain;
+        box-shadow: 0px 0px 12px 0px rgb(167, 167, 167);
+        transition: .3s ease;
+        opacity: .85;
+
+    }
+    
+}
+
+@media (max-width: 700px) {
+
+    .description {
+
+        padding-inline: 12%;
+
+    }
+
+    .description h1 {
+
+        font-size: 2.8em;
+        text-align: center;
+
+    }
+
+    .description p {
+
+        font-size: 1.2em;
+
+    }
+
+    .description button {
+
+        width: 30%;
+
+    }
+
+    .gallery {
+
+        padding-top: 12%;
+
+    }
+
+    .gallery div {
+
+        background-color: transparent;
+        margin: 1%;
+        max-width: 30%;
+        max-height: 16%;
+
+    }
+
+    .gallery div img {
+
+        border-radius: 16px;
+        max-width: 99%;
+        max-height: 95%;
+        object-fit: contain;
+        box-shadow: 0px 0px 12px 0px rgb(167, 167, 167);
+        transition: .3s ease;
+        opacity: .85;
+
+    }
+    
+}
+
+@media (max-width: 1025px) {
+
+    .description {
+
+        padding-inline: 16%;
+
+    }
+
+    .description h1 {
+
+        font-size: 3.4em;
+        text-align: center;
+
+    }
+
+    .description p {
+
+        font-size: 1.3em;
+
+    }
+
+    .description button {
+
+        width: 30%;
+
+    }
+
+    .gallery {
+
+        padding-top: 8%;
+
+    }
+
+    .gallery div {
+
+        background-color: transparent;
+        margin: 1%;
+        max-width: 30%;
+        max-height: 16%;
+
+    }
+
+    .gallery div img {
+
+        border-radius: 16px;
+        max-width: 99%;
+        max-height: 95%;
+        object-fit: contain;
+        box-shadow: 0px 0px 12px 0px rgb(167, 167, 167);
+        transition: .3s ease;
+        opacity: .85;
+
+    }
+    
+}
+
+
+
+
+@media (max-width: 1600px) {
+
+    .description {
+
+        padding-inline: 24%;
+
+    }
+
+    .description h1 {
+
+        font-size: 3.6em;
+        text-align: center;
+
+    }
+
+    .description p {
+
+        font-size: 1.4em;
+
+    }
+
+    .description button {
+
+        width: 30%;
+
+    }
+
+    .gallery {
+
+        padding-top: 8%;
+
+    }
+
+    .gallery div {
+
+        background-color: transparent;
+        margin: 1%;
+        max-width: 30%;
+        max-height: 16%;
+
+    }
+
+    .gallery div img {
+
+        border-radius: 16px;
+        max-width: 99%;
+        max-height: 95%;
+        object-fit: contain;
+        box-shadow: 0px 0px 12px 0px rgb(167, 167, 167);
+        transition: .3s ease;
+        opacity: .85;
+
+    }
+    
+}
